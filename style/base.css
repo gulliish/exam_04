@@ -1,5 +1,41 @@
+:root{
+    --main-title-color: #FFFFFF;
+    --main-text-color: #000000;
+    --secondary-text-color:#8C8C8C;
+    --danger-color:#AC4141;
+    --primary-bg-color: #5F81B2;
+    --modal-bg-color: rgba(17, 17, 17, 0.5);
+    --modal-content-bg-color:#FFFBE3;   
+    --mobile-modal-bg-color: rgba(0, 0, 0, 0.5);
+    --title-font-size: 60px;
+    --title-line-height: 82px;
+    --subtitle-fs: 18px;
+    --subtitle-lh: 25px;
+    --text-fs: 16px;
+    --text-lh: 22px;
+    --modal-title-fs: 20px;
+    --modal-title-lh: 27px;
+    --letter-spacing: 0.01em;
+    --save-bg-color: #5F81B2;
+    --cancel-text-color: #AEAEAE;
+    --input-border:1px Solid #5F81B2;  
+    --create-btn-bg:#F5D57F;
+    --edit-color:#2A5B94;
+}
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+body{
+    font-family: 'Nunito', sans-serif;
+}
+ul, ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+a, button{
+    cursor: pointer;
 }
